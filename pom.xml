@@ -62,11 +62,11 @@
                     </execution>
                 </executions>
             </plugin>
-<!--            Een static code analysis tool controleert of je project geen fouten bevat die veel voorkomen:-->
+            <!--            Een static code analysis tool controleert of je project geen fouten bevat die veel voorkomen:-->
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>4.4.1</version>
+<!--                <version>4.4.1</version>-->
             </plugin>
         </plugins>
     </build>
