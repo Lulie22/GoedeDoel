@@ -1,6 +1,7 @@
 package be.vdab.goededoel.domain;
 
 import java.math.BigDecimal;
+import java.util.Objects;
 
 public class GoedeDoel {
     private final String naam;
@@ -27,4 +28,8 @@ public class GoedeDoel {
         return false;
     }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(naam, opbrengst);
+    }
 }
