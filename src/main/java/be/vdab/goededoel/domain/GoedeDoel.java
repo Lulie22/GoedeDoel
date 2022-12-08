@@ -26,4 +26,5 @@ public class GoedeDoel {
         }
         return false;
     }
+
 }
